@@ -1,0 +1,5 @@
+C:\Users\User\IdeaProjects\pocketlabeldata\obj\Debug\net6.0-windows\pocketlabeldata.csproj.AssemblyReference.cache
+C:\Users\User\IdeaProjects\pocketlabeldata\obj\Debug\net6.0-windows\pocketlabeldata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\IdeaProjects\pocketlabeldata\obj\Debug\net6.0-windows\pocketlabeldata.AssemblyInfoInputs.cache
+C:\Users\User\IdeaProjects\pocketlabeldata\obj\Debug\net6.0-windows\pocketlabeldata.AssemblyInfo.cs
+C:\Users\User\IdeaProjects\pocketlabeldata\obj\Debug\net6.0-windows\pocketlabeldata.csproj.CoreCompileInputs.cache

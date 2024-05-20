@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<Wix xmlns=''>
+  <Product Id='*' Name='LABEL PRINT' 
+  Language='2070' 
+  Version='1.0.0.0' 
+  Manufacturer='NETCEED'>
+
+    <Package Id='*' InstallScope="perMachine" Compressed='yes'  />
+    <Media Id='1' Cabinet='product.cab' EmbedCab='no' />
+
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder'>
+        <Directory Id="INSTALLFOLDER" Name="LabelGenerator">
+            <Component Id='MainExecutable' Guid='YOUR_COMPONENT_GUID'>
+                <File Id='MainExecutableFile' Source='C:/Users/User/IdeaProjects/pocketlabeldata/pocketlabeldata.sln' KeyPath='yes' />
+            </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <Feature Id='MainApplication' Title='Main Application' Level='1'>
+      <ComponentRef Id='MainExecutable' />
+    </Feature>
+  </Product>
+</Wix>
